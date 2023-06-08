@@ -12,7 +12,7 @@ let getData = () => {
 
 				$('<tr><td>' + value.time + '</td><td><p>#1 ' + value.teamName1 + '</p><p>#2 ' +
 					value.teamName2 + '</p></td><td>' + value.tournament + '</td><td>' +
-					value.sport + '</td><td><a href="' + value.link + '">Details</a></td></tr><')
+					value.sport + '</td><td><a href="' + value.link + '">Details</a></td></tr>')
 					.appendTo(table);
 
 			});
