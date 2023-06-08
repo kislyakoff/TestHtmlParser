@@ -1,0 +1,19 @@
+body {
+	background-color: #c3c485;
+}
+
+header {
+	margin-bottom: 15px;
+}
+
+.container > h1 {
+	margin: 10px 0 15px;
+}
+
+#data-table td {
+	vertical-align: middle;
+}
+
+#data-table td > p {
+	margin-bottom: 0;
+}
